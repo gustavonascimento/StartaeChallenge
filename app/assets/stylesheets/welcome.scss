@@ -1,0 +1,69 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bg__top {
+  background-image: asset-url("bg.png");
+  background-repeat:no-repeat;
+  //background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1440px;
+	height: 1136px;
+}
+
+.header {
+  width: 147px;
+  height: 33px;
+  background-image: asset-url("logo-startae.png");
+  background-size: cover;
+  margin-top: -1100px;
+  margin-left: 60px;
+}
+
+.title {
+  margin-top: 147px;
+  margin-left: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 65px;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.info {
+  margin-top: -195px;
+  margin-left: -25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 17px;
+  opacity:0.80;
+  color: #FFFFFF;
+  letter-spacing: 0.42px;
+  white-space: pre
+}
+
+.twitter-logo {
+  margin-left: 60px;
+  margin-top: 30px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: asset-url("logo-twitter.svg");
+}
+
+.logo-content {
+  margin-left: 90px;
+  margin-top: -22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0.3px;
+}

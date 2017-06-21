@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
   resources :users
+
+  get '/welcome' => 'welcome#index'
 
   get 'users/new'
   get '/signup' => 'users#new'
-  
+
+
   get 'twitter/index'
 
   resources :users
