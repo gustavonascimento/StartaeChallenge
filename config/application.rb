@@ -11,8 +11,11 @@ module StartaeChallenge
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
-    # Settings in config/environments/* take precedence over those specified here.
-    # Application configuration should go into files in config/initializers
-    # -- all .rb files in that directory are automatically loaded.
+    $client = Twitter::REST::Client.new do |config|
+      config.consumer_key        = "Cv5D08Ixf6wKfgmW4awDhXeKq"
+      config.consumer_secret     = "qBywXAeWO62SvVhf7N1oNSqGJgkfBl2vhKU4u2wESSuT29cYpm"
+      config.access_token        = "875458018619432964-oOyXhypnaUPw8QYgPzScoz83jR13uM3"
+      config.access_token_secret = "exuXc2tqTh2a3X9qWpfPI1BFoPQ8BAfPRzcPwi6Og6wiN"
+    end
   end
 end

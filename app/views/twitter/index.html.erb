@@ -1,2 +1,8 @@
-<h1>Twitter#index</h1>
-<p>Find me in app/views/twitter/index.html.erb</p>
+<ul class="list-unstyled  text-gris small">
+  <% @search.each  do |tweet| %>
+    <li>
+      <span class="glyphicon glyphicon-music text-info"></span>&nbsp; <%= tweet.text%>
+      <span class="text-gris-oscuro">  <%= time_ago_in_words(tweet.created_at) %></span>
+    </li>
+    <% end %>
+</ul>
