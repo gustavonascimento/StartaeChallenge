@@ -2,6 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.bg__top {
+  background-image: asset-url("top.png");
+  background-repeat:no-repeat;
+  //background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+  // clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+  // background-color: #5D1EB2;
+  // position:relative;
+  width: 1440px;
+  height: 1136px;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}
+
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
