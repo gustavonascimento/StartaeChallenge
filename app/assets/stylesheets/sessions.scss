@@ -1,4 +1,4 @@
-// Place all the styles related to the Users controller here.
+// Place all the styles related to the Sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
@@ -20,17 +20,6 @@
   // background-repeat: no-repeat;
 }
 
-input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
-  width: 100%;
-  margin-bottom: 15px;
-  //@include box_sizing;
-}
-
-input {
-  height: auto !important;
-}
-
-.row {
+.col-md-6 col-md-offset-3 {
   margin-top: -1100px;
 }
