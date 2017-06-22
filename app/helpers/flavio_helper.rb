@@ -1,0 +1,2 @@
+module FlavioHelper
+end

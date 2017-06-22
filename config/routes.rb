@@ -1,5 +1,25 @@
 Rails.application.routes.draw do
 
+  get 'bruno/index'
+
+  get 'contaifer/index'
+
+  get 'thiago/index'
+
+  get 'mario/index'
+
+  get 'kande/index'
+
+  get 'matheus/index'
+
+  get 'jessica/index'
+
+  get 'victoria/index'
+
+  get 'renato/index'
+
+  get 'flavio/index'
+
   get 'rafael/index'
 
   root 'welcome#index'
